@@ -1,6 +1,6 @@
 #include <cmath>
-#include "include/Core"
-#include "include/Dense"
+#include "../include/Core"
+#include "../include/Dense"
 #include <iostream>
 
 int main()
