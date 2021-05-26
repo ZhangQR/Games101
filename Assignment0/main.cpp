@@ -73,6 +73,6 @@ int main()
     matrix << 0.707, -0.707, 1.0, 0.707, 0.707, 2.0, 0.0, 0.0, 1.0;
     std::cout << "P(2,1) 变换后的结果为：\n";
     std::cout << matrix * p << std::endl;
-
+    
     return 0;
 }
