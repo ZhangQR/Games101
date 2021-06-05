@@ -28,7 +28,7 @@
 - C/C++，mirosoft
 - Cmake, twxx
 - Cmake Tool, mirosoft
-![VsCode 插件](https://upload-images.jianshu.io/upload_images/17546328-031d9d5d95838455.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Vs Code 插件](https://github.com/ZhangQR/Games101/raw/master/Images/README01.png)
 
 ### Eigen库编译
 
@@ -67,3 +67,23 @@ mingw32-make -j4
 
 没有报错的话会在 build 目录出现一个可执行文件，运行即可。
 (如果报了关于 **OpenCV_DIR** 的错，那可能是因为你在设置这个环境变量之前就打开了 VSCode 的终端，所以需要重开一下)  
+
+## 作业  
+
+每一次作业都会在一个单独的 Assignment 文件夹中，Build 里面的东西我没删，在我自己的电脑上是每次都会被覆盖的，如果没有覆盖可以自己手动把 Build 里面所有的东西都删除。
+
+### Assignment0
+
+主要就是搭建环境，然后自己探索一下。  
+
+### Assignment1
+
+1、基础：实现使用 AD 来控制三角形绕着 Z 轴旋转：
+![绕着 z 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_01.gif)
+
+旋转矩阵和透视投影矩阵的写法可以参考 [这篇](https://www.jianshu.com/p/51ea1dfa68bc)。
+
+2、进阶：实现绕着任意轴旋转三角形：  
+![绕着 x 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif)
+![绕着 y 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_03.gif)
+![绕着 (1,1,0) 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_04.gif)

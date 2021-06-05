@@ -6,6 +6,7 @@
 
 #include "Triangle.hpp"
 #include <algorithm>
+#include <iostream>
 #include "../include/Eigen"
 using namespace Eigen;
 

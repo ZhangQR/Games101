@@ -232,6 +232,9 @@ void rst::rasterizer::set_pixel(const Eigen::Vector3f& point, const Eigen::Vecto
     if (point.x() < 0 || point.x() >= width ||
         point.y() < 0 || point.y() >= height) return;
     auto ind = (height-point.y())*width + point.x();
+
+    // 如果不添加这个，那超出屏幕范围就不得行了
+    if((size_t)ind >= frame_buf.size()) return;
     frame_buf[ind] = color;
 }
 
