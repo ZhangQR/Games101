@@ -85,14 +85,14 @@ mingw32-make -j4
 
 旋转矩阵和透视投影矩阵的写法可以参考 [这篇](https://www.jianshu.com/p/51ea1dfa68bc)。
 
-2、进阶：实现绕着任意轴旋转三角形：  
+2、进阶：实现绕着任意轴旋转三角形。注意，要加一下 ` if((size_t)ind >= frame_buf.size()) return; ` 不然自定义旋转轴的时候，三角形会转到屏幕外面去，就会数组越界。
 
-绕着 x 轴旋转
+绕着 x 轴旋转  
 <img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
 
-绕着 y 轴旋转
+绕着 y 轴旋转  
 <img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
 
 
-绕着 (1,1,0) 轴旋转
+绕着 (1,1,0) 轴旋转  
 <img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
