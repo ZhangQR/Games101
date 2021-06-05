@@ -91,8 +91,8 @@ mingw32-make -j4
 <img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
 
 绕着 y 轴旋转  
-<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_03.gif" width="400px"/>
 
 
 绕着 (1,1,0) 轴旋转  
-<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_04.gif" width="400px"/>
