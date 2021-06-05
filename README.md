@@ -27,7 +27,7 @@
 - 安装文件[VSCode下载](https://link.zhihu.com/?target=https%3A//code.visualstudio.com/)，安装完成以后安装对应插件
 - C/C++，mirosoft
 - Cmake, twxx
-- Cmake Tool, mirosoft
+- Cmake Tool, mirosoft  
 ![Vs Code 插件](https://github.com/ZhangQR/Games101/raw/master/Images/README01.png)
 
 ### Eigen库编译
@@ -79,11 +79,20 @@ mingw32-make -j4
 ### Assignment1
 
 1、基础：实现使用 AD 来控制三角形绕着 Z 轴旋转：
-![绕着 z 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_01.gif)
+
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_01.gif" width="400px"/>
+
 
 旋转矩阵和透视投影矩阵的写法可以参考 [这篇](https://www.jianshu.com/p/51ea1dfa68bc)。
 
 2、进阶：实现绕着任意轴旋转三角形：  
-![绕着 x 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif)
-![绕着 y 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_03.gif)
-![绕着 (1,1,0) 轴旋转](https://github.com/ZhangQR/Games101/raw/master/Images/01_04.gif)
+
+绕着 x 轴旋转
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
+
+绕着 y 轴旋转
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
+
+
+绕着 (1,1,0) 轴旋转
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/01_02.gif" width="400px"/>
