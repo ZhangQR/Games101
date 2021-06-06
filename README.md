@@ -101,8 +101,8 @@ mingw32-make -j4
 1、基础：上面只是画了网格，现在为其填色，先找到这个三角形的 “边界”,然后遍历边界去比较该像素的中心点是否在三角形内部，如果在内部再进行深度测试。成果如下：  
 <img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_01.png" width="400px"/>  
 放大之后是这样的，锯齿比较明显：
-<img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_02.png" width="400px"/>  
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_02.jpg" width="400px"/>  
 2、使用多重采样的方法，也就是在一个像素点内取 4 个采样点，然后按照比例来上色，成果如下：  
-<img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_03.png" width="400px"/>  
-放大之后虽然还是有锯齿，但是上面要好一点了：  
-<img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_04.png" width="400px"/>
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_03.jpg" width="400px"/>  
+放大之后虽然还是有锯齿，但是比上面要好一点了：  
+<img src="https://github.com/ZhangQR/Games101/raw/master/Images/02_04.jpg" width="400px"/>
